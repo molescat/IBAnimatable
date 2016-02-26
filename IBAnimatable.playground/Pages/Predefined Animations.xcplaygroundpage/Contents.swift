@@ -87,6 +87,9 @@ view.y = 200
 //view.rotate()
 //view.rotate(clockwise: false)
 //view.moveTo()
-view.moveBy()
+//view.moveBy()
 
+Timer.start(1.0, repeats: true) {_ in 
+  view.squeeze()
+}
 //: [Next](@next)

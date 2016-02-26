@@ -21,10 +21,10 @@ let view = AnimatableView(frame: CGRect(x: animatableViewX, y: animatableViewY, 
 view.configAnimatableProperties()
 iPhoneView.addSubview(view)
 
-view.fillColor = UIColor(red: 0xba/0xff, green: 0x77/0xff, blue: 1, alpha: 1)
+view.fillColor = UIColor.magentaColor()
 view.borderWidth = 2
-view.borderColor = UIColor.purpleColor()
-view.maskType = String(MaskType.Circle)
+view.borderColor = UIColor.blackColor()
+view.maskType = String(MaskType.Polygon)
 
 // For moveTo or moveBy animation
 view.x = -100
